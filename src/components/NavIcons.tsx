@@ -31,9 +31,10 @@ const NavIcons = () => {
                 </div>
             )}
             <Image src='/notification.png' alt="" width={22} height={22} className="cursor-pointer" />
-            <div className="relative cursor-pointer">
-            <Image src='/cart.png' alt="" width={22} height={22} className="cursor-pointer" onClick={() => setisCartOpen((prev) => !prev)} />
-            <div className="absolute -top-4 -right-4 w-6 h-6 bg-buzz rounded-full text-white text-sm flex items-center justify-center">2</div>
+
+            <div className="relative cursor-pointer" onClick={() => setisCartOpen((prev) => !prev)}>
+                <Image src='/cart.png' alt="" width={22} height={22} className="cursor-pointer" />
+                <div className="absolute -top-4 -right-4 w-6 h-6 bg-buzz rounded-full text-white text-sm flex items-center justify-center">2</div>
             </div>
             {isCartOpen && (
                 <CartModal />

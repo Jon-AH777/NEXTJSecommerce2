@@ -1,7 +1,7 @@
 export default function LoginPage(){
     return (
         <div>
-            LoginPage
+            <h1>sadfa</h1>
         </div>
     )
 }
