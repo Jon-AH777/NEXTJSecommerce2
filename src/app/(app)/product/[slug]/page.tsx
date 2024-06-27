@@ -1,6 +1,6 @@
-import Add from "@/components/Add"
-import CustomizeProducts from "@/components/CustomizeProducts"
-import ProductImages from "@/components/ProductImages"
+import Add from "@/_components/Add"
+import CustomizeProducts from "@/_components/CustomizeProducts"
+import ProductImages from "@/_components/ProductImages"
 
 export default function SinglePage(){
     return (

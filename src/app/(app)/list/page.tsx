@@ -1,5 +1,5 @@
-import Filter from "@/components/Filter";
-import ProductList from "@/components/ProductList";
+import Filter from "@/_components/Filter";
+import ProductList from "@/_components/ProductList";
 import Image from "next/image";
 
 export default function ListPage() {

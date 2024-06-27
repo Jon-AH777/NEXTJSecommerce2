@@ -15,6 +15,10 @@ const config: Config = {
       },
       colors: {
         buzz: "#F35C7A",
+        back: "#151c2c",
+        backSoft: "#182237",
+        textSoft: "#b7bac1",
+        hoverColor: "#2e374a",
       },
     },
   },

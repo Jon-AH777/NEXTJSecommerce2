@@ -19,9 +19,9 @@ const MenuLink: React.FC<MenuLinkProps> = ({ item }) => {
   return (
     <Link
       href={item.path}
-      className={` flex items-center gap-2.5 mx-0 my-[5px] p-5 rounded-[10px] ${
-        pathname === item.path ? "active" : ""
-      } text-blue-600 hover:underline`}
+      className={`text-white flex items-center gap-2.5 mx-0 my-[5px] p-5 rounded-[10px] ${
+        pathname === item.path ? "bg-hoverColor" : "hover:bg-hoverColor"
+       }  `}
     >
       {item.icon}
       {item.title}

@@ -1,7 +1,7 @@
 export default function RightBar(){
     return (
         <div>
-            sfda
+            rightbar
         </div>
     )
 }
